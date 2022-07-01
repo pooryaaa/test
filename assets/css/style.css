@@ -18,8 +18,12 @@
   margin-top: 15px;
 }
 
-nav .navbar {
-  background-color: #e7a328 !important;
+nav {
+  color: black !important;
+  font-weight: 600;
+}
+nav ul li {
+  padding: 0 20px !important;
 }
 
 .bg-yellow {
@@ -47,6 +51,7 @@ nav .navbar {
 .menu-top {
   width: 60%;
   margin: auto;
+  font-size: 14px;
 }
 .menu-top a {
   text-decoration: none;
@@ -65,6 +70,24 @@ nav .navbar {
   width: 100%;
   height: 1px;
   background-color: #ececec;
+}
+
+.navHover {
+  position: relative !important;
+}
+.navHover:hover:after {
+  width: 100% !important;
+  background-color: white !important;
+}
+.navHover:after {
+  content: "" !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  height: 2px !important;
+  background-color: black !important;
+  width: 0px !important;
+  transition: 300ms ease-out !important;
 }
 
 /*# sourceMappingURL=style.css.map */

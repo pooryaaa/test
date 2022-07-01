@@ -15,7 +15,7 @@
 <body dir="rtl">
 <div id="info">
 <p>
-    به دلیل نوسان ارز، احتمال تغییر قیمت وجود دارد لطفا قبل از پرداخت با کارشناسان ما در تماس باشید
+    --- به دلیل نوسان ارز، احتمال تغییر قیمت وجود دارد لطفا قبل از پرداخت با کارشناسان ما در تماس باشید ---
 </p>
 </div>
 <div class="menu-top">
@@ -57,56 +57,213 @@
         <i class="fa fa-search"></i>
     </div>
 </div>
-<nav class="navbar navbar-expand-lg navbar-light bg-yellow">
-    <div class="container-fluid">
-<!--        <a class="navbar-brand" href="#">Navbar</a>-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg navbar-light bg-yellow shadow">
+    <div class="container">
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+            <div class="hamburger-toggle">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="motherBoard" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        مادربرد
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="motherBoard">
-                        <li><a class="dropdown-item" href="#">مادربرد گیمینگ</a></li>
+        <div class="collapse navbar-collapse" id="navbar-content">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown navHover">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">مادربرد</a>
+                    <ul class="dropdown-menu shadow">
+                        <li><a class="dropdown-item" href="#">مادربردهای گیمینگ</a></li>
                         <li><a class="dropdown-item" href="#">برپایه AMD</a></li>
                         <li><a class="dropdown-item" href="#">برپایه Intel</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="BrandHa" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                برندها
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="BrandHa" >
-                                <li><a class="dropdown-item" href="#">مادربرد گیمینگ</a></li>
-                                <li><a class="dropdown-item" href="#">برپایه AMD</a></li>
-                                <li><a class="dropdown-item" href="#">برپایه Intel</a></li>
+                        <li class="dropend">
+                            <a role="button" href="#" class="dropdown-item dropdown-toggle" data-mdb-toggle="dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">برندها</a>
+                            <ul class="dropdown-menu shadow" aria-labelledby="BrandHa">
+                                <li><a class="dropdown-item" href=""> ایسوس</a></li>
+                                <li><a class="dropdown-item" href=""> گیگابایت</a></li>
+                                <li><a class="dropdown-item" href=""> بایواستار</a></li>
+                                <li><a class="dropdown-item" href=""> ام اس آی</a></li>
+                                <li><a class="dropdown-item" href=""> ازراک</a></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                <li class="nav-item dropdown navHover">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">کارت گرافیک</a>
+                    <ul class="dropdown-menu shadow">
+                        <li><a class="dropdown-item" href="#">برپایه AMD</a></li>
+                        <li><a class="dropdown-item" href="#">برپایه Nvidia</a></li>
+                        <li class="dropend">
+                            <a role="button" href="#" id="BrandHa" class="dropdown-item dropdown-toggle" data-mdb-toggle="dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">برندها</a>
+                            <ul class="dropdown-menu shadow" aria-labelledby="BrandHa">
+                                <li><a class="dropdown-item" href=""> ارکتک</a></li>
+                                <li><a class="dropdown-item" href=""> ازراک</a></li>
+                                <li><a class="dropdown-item" href=""> ام اس آی</a></li>
+                                <li><a class="dropdown-item" href=""> ای فاکس</a></li>
+                                <li><a class="dropdown-item" href=""> ایسوس</a></li>
+                                <li><a class="dropdown-item" href=""> ایکس اف ایکس</a></li>
+                                <li><a class="dropdown-item" href=""> اینو تری دی</a></li>
+                                <li><a class="dropdown-item" href=""> ای وی جی ای</a></li>
+                                <li><a class="dropdown-item" href=""> بایواستار</a></li>
+                                <li><a class="dropdown-item" href=""> پلیت</a></li>
+                                <li><a class="dropdown-item" href=""> پی ان وای</a></li>
+                                <li><a class="dropdown-item" href=""> زوتک</a></li>
+                                <li><a class="dropdown-item" href=""> سافایر</a></li>
+                                <li><a class="dropdown-item" href=""> گیگابایت</a></li>
+                                <li><a class="dropdown-item" href=""> گلکس</a></li>
+                                <li><a class="dropdown-item" href=""> گینوارد</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li class="nav-item dropdown navHover">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">پردازنده</a>
+                    <ul class="dropdown-menu shadow">
+                        <li><a class="dropdown-item" href="#">AMD</a></li>
+                        <li><a class="dropdown-item" href="#">INTEL</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown navHover">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">حافظه رم</a>
+                    <ul class="dropdown-menu shadow">
+                        <li><a class="dropdown-item" href="#">مادربردهای گیمینگ</a></li>
+                        <li><a class="dropdown-item" href="#">برپایه AMD</a></li>
+                        <li><a class="dropdown-item" href="#">برپایه Intel</a></li>
+
+                        <li class="dropend">
+                            <a role="button" href="#" class="dropdown-item dropdown-toggle" data-mdb-toggle="dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">برندها</a>
+                            <ul class="dropdown-menu shadow" aria-labelledby="BrandHa">
+                                <li><a class="dropdown-item" href=""> Second level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 2</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 3</a></li>
+                                <li><a class="dropdown-item" href=""> Third level 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown navHover">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">هارد</a>
+                    <ul class="dropdown-menu shadow">
+                        <li><a class="dropdown-item" href="#">مادربردهای گیمینگ</a></li>
+                        <li><a class="dropdown-item" href="#">برپایه AMD</a></li>
+                        <li><a class="dropdown-item" href="#">برپایه Intel</a></li>
+                        <li class="dropend">
+                            <a role="button" href="#" class="dropdown-item dropdown-toggle" data-mdb-toggle="dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">برندها</a>
+                            <ul class="dropdown-menu shadow" aria-labelledby="BrandHa">
+                                <li><a class="dropdown-item" href=""> Second level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 2</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 3</a></li>
+                                <li><a class="dropdown-item" href=""> Third level 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown navHover">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">منبع تغذیه</a>
+                    <ul class="dropdown-menu shadow">
+                        <li><a class="dropdown-item" href="#">مادربردهای گیمینگ</a></li>
+                        <li><a class="dropdown-item" href="#">برپایه AMD</a></li>
+                        <li><a class="dropdown-item" href="#">برپایه Intel</a></li>
+                        <li class="dropend">
+                            <a role="button" href="#" class="dropdown-item dropdown-toggle" data-mdb-toggle="dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">برندها</a>
+                            <ul class="dropdown-menu shadow" aria-labelledby="BrandHa">
+                                <li><a class="dropdown-item" href=""> Second level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 2</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 3</a></li>
+                                <li><a class="dropdown-item" href=""> Third level 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown navHover">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">کیس</a>
+                    <ul class="dropdown-menu shadow">
+                        <li><a class="dropdown-item" href="#">مادربردهای گیمینگ</a></li>
+                        <li><a class="dropdown-item" href="#">برپایه AMD</a></li>
+                        <li><a class="dropdown-item" href="#">برپایه Intel</a></li>
+                        <li class="dropend">
+                            <a role="button" href="#" class="dropdown-item dropdown-toggle" data-mdb-toggle="dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">برندها</a>
+                            <ul class="dropdown-menu shadow" aria-labelledby="BrandHa">
+                                <li><a class="dropdown-item" href=""> Second level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 2</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 3</a></li>
+                                <li><a class="dropdown-item" href=""> Third level 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown navHover">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">تجهیزات جانبی</a>
+                    <ul class="dropdown-menu shadow">
+                        <li><a class="dropdown-item" href="#">مادربردهای گیمینگ</a></li>
+                        <li><a class="dropdown-item" href="#">برپایه AMD</a></li>
+                        <li><a class="dropdown-item" href="#">برپایه Intel</a></li>
+                        <li class="dropend">
+                            <a role="button" href="#" class="dropdown-item dropdown-toggle" data-mdb-toggle="dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">برندها</a>
+                            <ul class="dropdown-menu shadow" aria-labelledby="BrandHa">
+                                <li><a class="dropdown-item" href=""> Second level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 2</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 3</a></li>
+                                <li><a class="dropdown-item" href=""> Third level 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown navHover">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">خنک کننده</a>
+                    <ul class="dropdown-menu shadow">
+                        <li><a class="dropdown-item" href="#">مادربردهای گیمینگ</a></li>
+                        <li><a class="dropdown-item" href="#">برپایه AMD</a></li>
+                        <li><a class="dropdown-item" href="#">برپایه Intel</a></li>
+                        <li class="dropend">
+                            <a role="button" href="#" class="dropdown-item dropdown-toggle" data-mdb-toggle="dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">برندها</a>
+                            <ul class="dropdown-menu shadow" aria-labelledby="BrandHa">
+                                <li><a class="dropdown-item" href=""> Second level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 2</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 3</a></li>
+                                <li><a class="dropdown-item" href=""> Third level 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown navHover">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">مانیتور</a>
+                    <ul class="dropdown-menu shadow">
+                        <li><a class="dropdown-item" href="#">Gallery</a></li>
+                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                        <li class="dropend">
+                            <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Submenu Right</a>
+                            <ul class="dropdown-menu shadow">
+                                <li><a class="dropdown-item" href=""> Second level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 2</a></li>
+                                <li><a class="dropdown-item" href=""> Second level 3</a></li>
+                                <li class="dropend">
+                                    <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Let's go deeper!</a>
+                                    <ul class="dropdown-menu dropdown-submenu shadow">
+                                        <li><a class="dropdown-item" href=""> Third level 1</a></li>
+                                        <li><a class="dropdown-item" href=""> Third level 2</a></li>
+                                        <li><a class="dropdown-item" href=""> Third level 3</a></li>
+                                        <li><a class="dropdown-item" href=""> Third level 4</a></li>
+                                        <li class="dropend">
+                                            <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Still don't have enough? Go much deeper!</a>
+                                            <ul class="dropdown-menu dropdown-submenu shadow">
+                                                <li><a class="dropdown-item" href=""> Third level 1</a></li>
+                                                <li><a class="dropdown-item" href=""> Third level 2</a></li>
+                                                <li><a class="dropdown-item" href=""> Third level 3</a></li>
+                                                <li><a class="dropdown-item" href=""> Third level 4</a></li>
+                                                <li><a class="dropdown-item" href=""> Third level 5</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href=""> Third level 5</a></li>
+                            </ul>
+                        </li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
             </ul>
-<!--            <form class="d-flex">-->
-<!--                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">-->
-<!--                <button class="btn btn-outline-success" type="submit">Search</button>-->
-<!--            </form>-->
         </div>
     </div>
 </nav>
